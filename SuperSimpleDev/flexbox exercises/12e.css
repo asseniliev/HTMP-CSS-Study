@@ -1,0 +1,38 @@
+.container {
+  width: 320px;
+  height: 110px;
+  border: 2px solid rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info-line {
+  display: flex;
+  height: 33.3%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+button {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(57, 122, 196);
+  border: none;
+}
+
+.button-1 {
+  width: 9%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.button-2 {
+  width: 12%;
+  border-radius: 15px;
+  text-align: center;
+}
