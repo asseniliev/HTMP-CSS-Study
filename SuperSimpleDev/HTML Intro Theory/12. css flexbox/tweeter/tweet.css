@@ -1,0 +1,63 @@
+body {
+  background-color: #151D26;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  height: 100vh;
+  margin: 0px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  border-right: 1px solid rgba(128, 128, 128, 0.25);
+  margin-left: 12%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.left-bottom-section {
+  display: flex;
+  height: 10%;
+  align-items: center;
+}
+
+.tweet-icon {
+  width: 15%;
+  transform: rotate(180deg);
+}
+
+.profile-icon {
+  height: 90%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-data {
+  margin-left: 10px;
+}
+
+.first-name {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.user-name {
+  color: #5A6673;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.middle-section {
+  color: white;
+  border-right: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.right-section {
+  color: white;
+}
